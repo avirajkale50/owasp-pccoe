@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Fira+Sans:wght@100;200;300;400;500&family=Poppins:ital,wght@0,100;0,400;0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Fira+Sans:wght@100;200;300;400;500&family=Nanum+Gothic&family=Noto+Color+Emoji&family=Poppins:ital,wght@0,100;0,400;0,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+body{
+    background:#24292d;
+    color: #fff;
+    overflow: hidden;
+    overflow-y: scroll;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5; 
+}  
+html{
+  scroll-behavior: smooth;
+}
+
+:root{
+  --color-bg:#1f1f38;
+  --color-bg-variant:#2c2c6c;
+  --color-orange:#ff2e00;
+  --color-orange-variant:#FF5733;
+  --color-white:#fff;
+  --color-light:rgba(255,255,255,0.6);
+  --transition:all 400ms ease;
+}
+/* _____________________css for the scrollbar________________________________ */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:#5A5A5A;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+ background: linear-gradient(109.5deg, var(--color-orange) 9.4%, var(--color-orange-variant) 78.4%);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(78deg, var(--color-orange) 9.4%, var(--color-orange-variant) 78.4%); 
+}
+/* _____________________________________media query for tablet_______________________ */
+@media screen and (min-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+/* _______________________________________media query for mobile____________________________ */
+@media screen and (max-width: 576px) {
+    body {
+      font-size: 16px; 
+    }
+  }
+  

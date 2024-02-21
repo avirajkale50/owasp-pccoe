@@ -1,0 +1,23 @@
+
+.fixed-bg {
+    min-height: 100%;
+    height: 35vh;
+    background-size: cover;
+    -webkit-background-size: cover !important; 
+    -moz-background-size: cover !important; 
+    -o-background-size: cover; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    line-height: 1.5;    
+    border-bottom: 1px solid  var(--color-orange);   
+    border-top: 1px solid  var(--color-orange);
+  }
+  .bg-2 {
+    background-image: url("https://images.unsplash.com/photo-1541728472741-03e45a58cf88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80");
+  }
